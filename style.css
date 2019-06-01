@@ -1,0 +1,135 @@
+html,body{
+    color: #DBEDF3;
+    font-family: 'Lobster', cursive;
+}
+section{
+	/*min-height: 85vh;*/
+	text-align: justify;
+	background-color: transparent;
+}
+section h1{
+	font-size: 50px;
+	text-align: center;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background-color: #404B69;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+i{
+	color: #00818A;
+}
+#place-holder{
+	width: 100%;
+	height:100vh; 
+	text-align: center;
+	background-color: rgba(255,255,255,0.7);
+	background-color: #404B69;
+	/*background-image: url("C:/Users/wf/Documents/site/img/bk002.png");
+	background-size: cover;*/
+}
+#menu{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.nav-link{
+	color: #EEE;
+	font-size: 25px;
+}
+/*plano de fundo*/
+/*
+#bk{
+	z-index: -7;
+	border: none;
+	position: fixed;
+	width: auto;
+	height: : 100vh;
+	top: -50px;
+	left: -50px;
+	filter: blur(25px);
+}
+*/
+.col-sm-8{
+	background-color: #DBEDF3;
+}
+.card{
+	text-align: center;
+	border: none;
+	/*border: 10px solid  #00818A;*/
+	border-radius: 10px;
+	min-height: auto;
+	background-color: #283149;
+/*	background-image: url("C:/Users/wf/Documents/Processing/blurred_sky/bk.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right top;
+	background-attachment: scroll;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card a{
+	font-size: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-header{
+	border-radius: 10px 10px 0 0 !important;
+	border:none;
+	background-color: #00818A;
+}
+.card-body{
+	text-align: left;
+}
+.card-footer{
+	border-radius: 0 0 10px 10px !important;
+	border: none;
+	background-color: #404B69;
+}
+.content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.form-control{
+	border-radius: none;
+	border:none;
+	background-color: #404B69;
+}
+#apr{
+	min-height: 350px;
+	padding:50px;
+	color: #00818A;
+	font-size: 25px;
+	background-color: #283149;
+	/*background-image: url("C:/Users/wf/Documents/Processing/noise_animado/bk.png");
+	background-size: cover;*/
+}
+#apr h1{
+
+	font-family: 'Ruthie', cursive;
+	font-size: 250px;
+	color: silver;
+	box-shadow: none;
+	background: none;
+}
+.icon-col{
+	text-align: center;
+}
+/*secao 01 - capa*/
+#formacao{
+	/*background-image: linear-gradient(to right top, #8d0067, #9f0965, #af1762, #be255f, #cc345b);*/
+	/*background-color: #BBB;*/
+}
+/*secao 02*/
+#experiencia{
+	/*background-image: linear-gradient(to right top, #cc345b, #d84357, #e25354, #eb6350, #f2734d);*/
+}
+/*secao 03*/
+#contato{
+	/*background-image: linear-gradient(to right top, #f2734d, #f7834a, #fb9449, #fea44a, #ffb54c);*/
+	/*background-color: #777;*/
+	/*min-height: 90vh;*/
+}
+#foot{
+	min-height: 10vh;
+	padding: 10px 0 10px 0;
+	background-color: #283149;
+}

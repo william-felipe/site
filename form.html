@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width">
+    <title>Sassy | Systems</title>
+
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!--fonte Lobster do google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <!--fontawesome icones-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="stylesheet" href="style.css">-->
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                <br>
+                <h1>Ficha de  corte</h1>
+                <br>
+                <form action="/action_page.php">
+                    <div class="form-group">
+                        <lable>Empresa (marca):</label>
+                        <br>
+                        <select class="form-control" name="Empresa">
+                            <option value="breda_ott">Breda OTT</option>
+                            <option value="breda_ab">Breda Angelo Bertoni</option>
+                            <option value="breda_jr">Breda JR</option>
+                            <option value="breda_ift">Breda Infantil</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <lable>Referência:</lable>
+                        <br>
+                        <input type="number" class="form-control" name="ref">
+                    </div>
+                    <div class="form-group">
+                        <lable>Data do pedido:</lable>
+                        <br>
+                        <input type="date" class="form-control" name="dt_pedido">
+                    </div>
+                    <div class="form-group">
+                        <lable>Descrição do modelo:</lable>
+                        <br>
+                        <input type="text" class="form-control" name="desc">
+                    </div>
+                    <div class="form-group">
+                        <lable>Tecido:</lable>
+                        <br>
+                        <input type="text" class="form-control" name="lastname" value="Mouse">
+                    </div>
+                    <div class="form-group">
+                        <lable>Numero de cortes:</lable>
+                        <br>
+                        <input type="number" class="form-control" name="n_crts">
+                    </div>
+                    <div class="form-group">
+                        <lable>Tipo de Graduação:</lable>
+                        <br>
+                        <select class="form-control" name="grade">
+                            <option value="gigante">Gigante(62-54)</option>
+                            <option value="normal_01">Normal(52-36)</option>
+                            <option value="normal_02">Normal(GG-PP)</option>
+                            <option value="juvenil">Juvenil(18-12)</option>
+                            <option value="infantil">Infantil(18-12)</option>
+                        </select>
+                    </div>
+                    <br>
+                    <br>
+                    <input class="btn btn-primary" type="submit" value="Gerar Ficha">
+                </form>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+    </div>
+</body>
+
+</html>
