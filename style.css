@@ -13,18 +13,18 @@ section h1{
 	border-radius: 10px;
 	margin-bottom: 20px;
 	padding: 10px;
-	background-color: #404B69;
+	background-color: #303841;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 i{
-	color: #00818A;
+	color: #F6C90E;
 }
 #place-holder{
 	width: 100%;
 	height:100vh; 
 	text-align: center;
 	background-color: rgba(255,255,255,0.7);
-	background-color: #404B69;
+	background-color: #F6C90E;
 	/*background-image: url("C:/Users/wf/Documents/site/img/bk002.png");
 	background-size: cover;*/
 }
@@ -51,15 +51,14 @@ i{
 }
 */
 .col-sm-8{
-	background-color: #DBEDF3;
+	background-color: #3A4750;
 }
 .card{
 	text-align: center;
 	border: none;
-	/*border: 10px solid  #00818A;*/
 	border-radius: 10px;
 	min-height: auto;
-	background-color: #283149;
+	background-color: #303841;
 /*	background-image: url("C:/Users/wf/Documents/Processing/blurred_sky/bk.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -73,8 +72,8 @@ i{
 }
 .card-header{
 	border-radius: 10px 10px 0 0 !important;
-	border:none;
-	background-color: #00818A;
+	border: none;
+	background-color: #F6C90E;
 }
 .card-body{
 	text-align: left;
@@ -82,7 +81,7 @@ i{
 .card-footer{
 	border-radius: 0 0 10px 10px !important;
 	border: none;
-	background-color: #404B69;
+	background-color: #303841;
 }
 .content{
 	padding-top: 20px;
@@ -91,19 +90,19 @@ i{
 .form-control{
 	border-radius: none;
 	border:none;
-	background-color: #404B69;
+	background-color: transparent;
+	background-color: rgba(43,51,60);
 }
 #apr{
 	min-height: 350px;
 	padding:50px;
-	color: #00818A;
-	font-size: 25px;
-	background-color: #283149;
+	color: #F6C90E;
+	font-size: 15px;
+	background-color: #303841;
 	/*background-image: url("C:/Users/wf/Documents/Processing/noise_animado/bk.png");
 	background-size: cover;*/
 }
 #apr h1{
-
 	font-family: 'Ruthie', cursive;
 	font-size: 250px;
 	color: silver;
@@ -130,6 +129,7 @@ i{
 }
 #foot{
 	min-height: 10vh;
-	padding: 10px 0 10px 0;
-	background-color: #283149;
+	padding: 30px 0 30px 0;
+	background-color: #303841;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="0 0 400 400" width="400" height="400">
+        <style id="ruthienormalnormal">
+            @import url("https://fonts.googleapis.com/css?family=Ruthie");
+            #eXO2Cn1Do{
+                fill:#F6C90E;
+            }
+            #c2s6JakTx5{
+                fill:transparent;
+                stroke-width:10px;
+                stroke:#F6C90E;
+            }
+        </style>
+
+        <defs>
+            <rect x="10" y="10" rx="190" ry="190" width="380" height="380" id="c2s6JakTx5">></rect>
+            <clipPath id="clipcLamRn0ao">
+                <use xlink:href="#c2s6JakTx5" opacity="1"></use>
+            </clipPath>
+            <text id="d9HhEBRNo" x="130.49" y="203.57" font-size="244" font-family="Ruthie" font-weight="normal" font-style="normal" letter-spacing="0" alignment-baseline="before-edge" transform="matrix(1 0 0 1 -93.34428563212714 -114.52302810064066)" style="line-height:100%" xml:space="preserve" dominant-baseline="text-before-edge">
+                <tspan x="130.49" dy="0em" alignment-baseline="before-edge" dominant-baseline="text-before-edge" text-anchor="start">W</tspan>
+            </text>
+        </defs>
+        <g>
+            <g>
+                <g>
+                    <use xlink:href="#c2s6JakTx5" opacity="1" fill="#78e6ac" fill-opacity="0"></use>
+                    <g clip-path="url(#clipcLamRn0ao)">
+                        <use xlink:href="#c2s6JakTx5" opacity="1" fill-opacity="0" stroke="#000000" stroke-width="20" stroke-opacity="1"></use>
+                    </g>
+                </g>
+                <g id="eXO2Cn1Do">
+                    <use xlink:href="#d9HhEBRNo" opacity="1" fill-opacity="1"></use>
+                </g>
+            </g>
+        </g>
+    </svg>
