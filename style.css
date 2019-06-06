@@ -1,6 +1,6 @@
 html,body{
     color: #EFECEC;
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 section{
 	/*min-height: 85vh;*/
@@ -10,6 +10,7 @@ section{
 section h1{
 	font-size: 50px;
 	text-align: center;
+	font-family: 'Lobster', cursive;
 	border-radius: 10px;
 	margin-bottom: 20px;
 	padding: 10px;
@@ -71,6 +72,7 @@ i{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-header{
+	font-family: 'Lobster', cursive;
 	border-radius: 10px 10px 0 0 !important;
 	border: none;
 	background-color: #62929A;
@@ -88,6 +90,7 @@ i{
 	padding-bottom: 20px;
 }
 .form-control{
+	font-family: 'Roboto', sans-serif;
 	border-radius: none;
 	border:none;
 	background-color: #5C5757;
