@@ -6,6 +6,7 @@ section{
 	/*min-height: 85vh;*/
 	text-align: justify;
 	background-color: transparent;
+	padding: 0 30px 0 30px;
 }
 section h1{
 	font-size: 50px;
@@ -52,6 +53,11 @@ i{
 */
 .col-sm-8{
 	background-color: #5C5757;
+	background-image: url("C:/Users/wf/Documents/Processing/noise_wood_lines/bk.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right top;
+	background-attachment: fixed;
 }
 .card{
 	text-align: center;
