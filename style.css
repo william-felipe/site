@@ -3,7 +3,7 @@ html,body{
     font-family: 'Roboto', sans-serif;
 }
 section{
-	/*min-height: 85vh;*/
+	height: 100vh;
 	text-align: justify;
 	background-color: transparent;
 	padding: 0 30px 0 30px;
@@ -15,14 +15,13 @@ section h1{
 	border-radius: 10px;
 	margin-bottom: 20px;
 	padding: 10px;
-	background-color: #363434;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #363434;
 }
 i{
 	color: #62929A;
 }
 .wrapper{
-	width: 100%;
+	width: 100% auto;
 	height:100vh; 
 	text-align: center;
 	background-color: rgba(255,255,255,0.7);
@@ -54,11 +53,12 @@ i{
 */
 .col-sm-8{
 	background-color: #5C5757;
-	background-image: url("C:/Users/wf/Documents/Processing/noise_wood_lines/bk.png");
+	background-image: url("img/simon-berger-twukN12EN7c-unsplash.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: right top;
 	background-attachment: fixed;
+	filter: blur(25px);
 }
 .card{
 	text-align: center;
@@ -101,19 +101,7 @@ i{
 	border:none;
 	background-color: #5C5757;
 }
-#apr{
-	min-height: 350px;
-	padding:50px;
-	/*color: #363434;*/
-	font-size: 15px;
-	background-color: #363434;
-}
-#apr h1{
-	font-size: 50px;
-	/*color: #F6C90E;*/
-	box-shadow: none;
-	background: none;
-}
+
 .icon-col{
 	text-align: center;
 }
