@@ -29,33 +29,34 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid container-mt-3">
         <div class="row">
-        	
+
             <div class="col-sm-3 sticky-top wrapper">
-                <ul id="menu"  class="nav flex-column">
+                <ul id="menu"  class="nav flex-column nav nav-pills" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link" href="#capa"><img class="rounded img-fluid" src="img/logo-01.png" style="width: 100px"></a>
+                        <a class="nav-link" data-bs-toggle="pill" href="#capa">Home
+                            <!--<img class="rounded img-fluid" src="img/logo-01.png" style="width: 100px">-->
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#formacao">Formação</a>
+                        <a class="nav-link" data-bs-toggle="pill" href="#formacao">Formação</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#experiencia">Experiência</a>
+                        <a class="nav-link" data-bs-toggle="pill" href="#experiencia">Experiência</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
+                        <a class="nav-link" data-bs-toggle="pill" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
 
-            <div class="col-sm-9 container-fluid">
-                <section id="capa" class="row">
+            <div class="col-sm-9 container-fluid tab-content">
+                <section id="capa" class="row container tab-pane active">
                     
-
                     <div class="col-sm-12 content">
 
-                        <div id="apr" class="card">
+                        <div class="card">
                             <div class="card-body">
                                 <img class="rounded mx-auto d-block img-fluid" src="img/logo-01.png">
                                 <div class="row d-flex justify-content-center">
@@ -65,17 +66,6 @@
                                     <h4>Planalto, Paraná 1995</h4>
                                 </div>
                             </div>
-                            <!--
-                       		<div class="row d-flex align-items-center">
-                            	<div class="col-lg-6">
-                                    <img class="rounded img-fluid mx-auto" src="img/logo-01.png">
-                            	</div>
-                            	<div class="col-lg-6">
-                       				<h1>William Felipe de Oliviera Pinheiro</h1>
-                                    <h4>Planalto, Paraná 1995</h4>
-                            	</div>
-                            </div>
-                        -->
                         </div>
 
                     </div>
@@ -83,7 +73,7 @@
                     
                 </section>
 
-                <section id="formacao" class="row">
+                <section id="formacao" class="row container tab-pane fade">
                     
 
                     <div class="col-sm-12 content">
@@ -104,7 +94,7 @@
                     
                 </section>
 
-                <section id="experiencia" class="row">
+                <section id="experiencia" class="row container tab-pane fade">
                     
 
                     <div class="col-sm-12 content">
@@ -125,7 +115,7 @@
                     
                 </section>
 
-                <section id="contato" class="row">
+                <section id="contato" class="row container tab-pane fade">
                     
 
                     <div class="col-sm-12 content">
@@ -142,7 +132,7 @@
                             			<i class="fa fa-phone"></i>
                             		</div>
                             		<div class="col-md-11">
-                            			(45) 98415-5984
+                            			(45) 98415-4584
                             		</div>
                             	</div>
                             	<div class="row">
@@ -172,35 +162,12 @@
                             	</h4>
                             </div>
                         </div>
-                        <!---->
-                        <br>
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Envie uma mensagem</h4>
-                            </div>
-                            <div class="card-body row">
-                                
-								<div class="col-lg-6 form-group">
-								    <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
-								</div>
-								<div class="col-lg-6 form-group">
-								    <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-								</div>
-								<div class="col-lg-12 form-group">
-								    <textarea class="form-control" id="comments" name="comments" placeholder="Mensagem" rows="5"></textarea>
-								</div>
-                            </div>
-                            <div class="card-footer">
-                                <a class="btn btn-primary">Submit</a>
-                            </div>
-                        </div>
-                       <!---->
                     </div>
 
                     
                 </section>
 
-                <section id="foot" class="row">
+                <section id="foot" class="row container tab-pane fade">
                     
 
                     <div class="col-sm-12 row">
