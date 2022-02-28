@@ -16,8 +16,6 @@
 
     <!--fonte Lobster do google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
-    <!--fonte Ruthie do google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Ruthie&display=swap" rel="stylesheet">
     <!--fonte Roboto do google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <!--fontawesome icones-->
@@ -30,14 +28,11 @@
 
 <body>
     <div class="container-fluid container-mt-3">
-        <div class="row">
-
-            <div class="col-sm-3 sticky-top wrapper">
-                <ul id="menu"  class="nav flex-column nav nav-pills" role="tablist">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
+            <div class="container-fluid d-flex justify-content-center">
+                <ul class="navbar-nav nav nav-pills" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="pill" href="#capa">Home
-                            <!--<img class="rounded img-fluid" src="img/logo-01.png" style="width: 100px">-->
-                        </a>
+                        <a class="nav-link" data-bs-toggle="pill" href="#capa">Início</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="pill" href="#formacao">Formação</a>
@@ -48,148 +43,140 @@
                     <li class="nav-item">
                         <a class="nav-link" data-bs-toggle="pill" href="#contato">Contato</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="pill" href="#foot">Referência</a>
+                    </li>
                 </ul>
             </div>
+        </nav>
 
-            <div class="col-sm-9 container-fluid tab-content">
-                <section id="capa" class="row container tab-pane active">
-                    
-                    <div class="col-sm-12 content">
+        <div class="tab-content">
 
-                        <div class="card">
-                            <div class="card-body">
-                                <img class="rounded mx-auto d-block img-fluid" src="img/logo-01.png">
-                                <div class="row d-flex justify-content-center">
-                                    <h1>William Felipe de Oliviera Pinheiro</h1>
+            <section id="capa" class="container tab-pane active">
+                
+                <div class="row">
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-8 card">
+                        <div class="card-body">
+                            <img class="rounded mx-auto d-block img-fluid" src="img/logo-01.png" style="width:300px;height: 300px;">
+                            <div class="d-flex justify-content-center">
+                                <h1>William Pinheiro</h1>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <h4>Planalto, Paraná 1995</h4>
+                                <p>William Felipe de Oliveira Pinheiro</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-2"></div>
+                </div>
+
+            </section>
+
+            <section id="formacao" class="container tab-pane fade">
+                <div class="col-sm-12">
+                    <h1>Formação</h1>
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Universidade Estadual do Oeste do Paraná<br>(UNIOESTE) Cascavel</h4>
+                        </div>
+                        <div class="card-body">
+                        </div>
+                        <div class="card-footer">
+                            <h5>Matemática licenciatura plena<br>Março de 2018 - Dezembreo de 2 mil e sabe-se lá quando.<br>(cursando)</h5>
+                            <a href="https://www5.unioeste.br/portal/" class="btn btn-primary">Portal Unioeste</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="experiencia" class="container tab-pane fade">
+                
+
+                <div class="col-sm-12 content">
+                    <h1>Experiência</h1>
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Alfabelle Confecções</h4>
+                        </div>
+                        <div class="card-body">
+                        </div>
+                        <div class="card-footer">
+                            <h5>Alfabelle Confecções | Catanduvas PR<br>Janeiro de 2012 - Novembro de 2018<br>Costureiro em série</h5>
+                            <a class="btn btn-primary">Telefone</a>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <section id="contato" class="container tab-pane fade">
+                
+
+                <div class="col-sm-12 content">
+
+                    <h1>Contato</h1>
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Dados</h4>
+                        </div>
+                        <div class="card-body">
+                            <h4>
+                            <div class="row">
+                                <div class="col-md-1 icon-col">
+                                    <i class="fa fa-phone"></i>
                                 </div>
-                                <div class="row d-flex justify-content-center">
-                                    <h4>Planalto, Paraná 1995</h4>
+                                <div class="col-md-11">
+                                    (45) 98415-4584
                                 </div>
                             </div>
-                        </div>
-
-                    </div>
-
-                    
-                </section>
-
-                <section id="formacao" class="row container tab-pane fade">
-                    
-
-                    <div class="col-sm-12 content">
-                        <h1>Formação</h1>
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Universidade Estadual do Oeste do Paraná<br>(UNIOESTE) Cascavel</h4>
+                            <div class="row">
+                                <div class="col-md-1 icon-col">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="col-md-11">
+                                    felipe.william@outlook.com
+                                </div>
                             </div>
-                            <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-1 icon-col">
+                                    <i class="fas fa-home"></i>
+                                </div>
+                                <div class="col-md-11">
+                                    Rua Marta Wend, 540, Catanduvas PR, 85470-000
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <h5>Matemática licenciatura plena<br>Março de 2018 - Dezembreo de 2021<br>(cursando)</h5>
-                                <a href="https://www5.unioeste.br/portal/" class="btn btn-primary">Portal Unioeste</a>
+                            <div class="row">
+                                <div class="col-md-1 icon-col">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="col-md-11">
+                                    www.linkedin.com/in/william-felipe-oliveira-pinheiro-5b1035186
+                                </div>
                             </div>
-                        </div>
-                    </div>
-
-                    
-                </section>
-
-                <section id="experiencia" class="row container tab-pane fade">
-                    
-
-                    <div class="col-sm-12 content">
-                        <h1>Experiência</h1>
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Alfabelle Confecções</h4>
-                            </div>
-                            <div class="card-body">
-                            </div>
-                            <div class="card-footer">
-                                <h5>Alfabelle Confecções | Catanduvas PR<br>Janeiro de 2012 - Novembro de 2018<br>Costureiro em série</h5>
-                                <a class="btn btn-primary">Telefone</a>
-                            </div>
+                            </h4>
                         </div>
                     </div>
+                </div>
 
-                    
-                </section>
+                
+            </section>
 
-                <section id="contato" class="row container tab-pane fade">
-                    
+            <section id="foot" class="container tab-pane fade">
+                
 
-                    <div class="col-sm-12 content">
-
-                        <h1>Contato</h1>
-                        <div class="card">
-                            <div class="card-header">
-                                <h4>Dados</h4>
-                            </div>
-                            <div class="card-body">
-                            	<h4>
-                            	<div class="row">
-                            		<div class="col-md-1 icon-col">
-                            			<i class="fa fa-phone"></i>
-                            		</div>
-                            		<div class="col-md-11">
-                            			(45) 98415-4584
-                            		</div>
-                            	</div>
-                            	<div class="row">
-                            		<div class="col-md-1 icon-col">
-                            			<i class="fas fa-envelope"></i>
-                            		</div>
-                            		<div class="col-md-11">
-                            			felipe.william@outlook.com
-                            		</div>
-                            	</div>
-                            	<div class="row">
-                            		<div class="col-md-1 icon-col">
-                            			<i class="fas fa-home"></i>
-                            		</div>
-                            		<div class="col-md-11">
-                            			Rua Dois, 540, Catanduvas PR, 85470-000
-                            		</div>
-                            	</div>
-                            	<div class="row">
-                            		<div class="col-md-1 icon-col">
-                            			<i class="fab fa-linkedin"></i>
-                            		</div>
-                            		<div class="col-md-11">
-                            			www.linkedin.com/in/william-felipe-oliveira-pinheiro-5b1035186
-                            		</div>
-                            	</div>
-                            	</h4>
-                            </div>
-                        </div>
+                <div class="col-sm-10 row">
+                    <div class="col-sm-7">
+                        <p>Icones por fontawesome</p>
+                        <p>Fontes por google fonts</p>
+                        <p>Feito com Bootstrap</p>
+                        <!--<p><a href="https://br.freepik.com/fotos-vetores-gratis/brochura">Brochura vetor criado por BiZkettE1 - br.freepik.com</a></p>-->
                     </div>
-
-                    
-                </section>
-
-                <section id="foot" class="row container tab-pane fade">
-                    
-
-                    <div class="col-sm-12 row">
-                        <div class="col-sm-5">
-                            <h5>Icones por fontawesome</h5>
-                            <h5>As fontes usadas neste site são oriundas do google fontes</h5>
-                            <h5>Este site foi construido usando Bootstrap</h5>
-                            <!--<h5><a href="https://br.freepik.com/fotos-vetores-gratis/brochura">Brochura vetor criado por BiZkettE1 - br.freepik.com</a></h5>-->
-
-                    <div class="col-sm-10 row">
-                        <div class="col-sm-7">
-                            <p>Icones por fontawesome</p>
-                            <p>As fontes usadas neste site são oriundas do google fonts</p>
-                            <p>Este site foi construido usando Bootstrap</p>
-                            <!--<p><a href="https://br.freepik.com/fotos-vetores-gratis/brochura">Brochura vetor criado por BiZkettE1 - br.freepik.com</a></p>-->
-                        </div>
-                        <div class="col-sm-5"></div>
-                    </div>
-
-                    
-                </section>
-            </div>
+                    <div class="col-sm-5">
+                </div>
+                
+            </section>
         </div>
     </div>
 

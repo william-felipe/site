@@ -4,10 +4,9 @@ html,body{
     background-color: #080705;
 }
 section{
-	height: 100vh;
 	text-align: justify;
 	background-color: transparent;
-	padding: 0 30px 0 30px;
+	padding: 80px 30px 80px 30px;
 }
 section h1{
 	font-size: 50px;
@@ -19,22 +18,11 @@ section h1{
 	color: #EEE5E9;
 }
 i{
-	color: #62929A;
-}
-.wrapper{
-	width: 100% auto;
-	height:100vh; 
-	text-align: center;
-	background-color: #EEE5E9;
-}
-#menu{
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	color: #EEE5E9;
 }
 .nav-link{
-	color: #080705;
-	font-size: 25px;
+	color: #EEE5E9;
+	font-size: 20px;
 }
 /*plano de fundo*/
 /*
@@ -49,19 +37,9 @@ i{
 	filter: blur(25px);
 }
 */
-.col-sm-8{
-	background-color: #5C5757;
-	background-image: url("img/simon-berger-twukN12EN7c-unsplash.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: right top;
-	background-attachment: fixed;
-	filter: blur(25px);
-}
-
 .card{
 	text-align: center;
-	border: 1px solid white;
+	border: 4px solid white;
 	border-radius: 10px;
 	min-height: auto;
 	background-color: rgba(255, 255, 255, 0.1);
@@ -72,53 +50,14 @@ i{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-header{
-	font-family: 'Lobster', cursive;
 	border-radius: 10px 10px 0 0 !important;
-	border: none;
-	border-bottom: 1px solid white;
-	background-color: #2dd881;
 }
 .card-body{
 	text-align: left;
 }
 .card-footer{
-	border-radius: 0 0 10px 10px !important;
-	border: none;
-	border-top: 1px solid white;
-}
-.content{
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-.form-control{
-	font-family: 'Roboto', sans-serif;
-	border-radius: none;
-	border:none;
-	background-color: #5C5757;
-}
 
+}
 .icon-col{
 	text-align: center;
-}
-
-/*secao 01 - capa*/
-#formacao{
-	/*background-image: linear-gradient(to right top, #8d0067, #9f0965, #af1762, #be255f, #cc345b);*/
-	/*background-color: #BBB;*/
-}
-/*secao 02*/
-#experiencia{
-	/*background-image: linear-gradient(to right top, #cc345b, #d84357, #e25354, #eb6350, #f2734d);*/
-}
-/*secao 03*/
-#contato{
-	/*background-image: linear-gradient(to right top, #f2734d, #f7834a, #fb9449, #fea44a, #ffb54c);*/
-	/*background-color: #777;*/
-	/*min-height: 90vh;*/
-}
-#foot{
-	min-height: 10vh;
-	padding: 30px 0 30px 0;
-	background-color: #363434;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
