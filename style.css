@@ -4,12 +4,13 @@ html,body{
     background-color: #080705;
 }
 section{
+	widows: 100wv;
 	text-align: justify;
 	background-color: transparent;
 	padding: 80px 30px 80px 30px;
 }
 section h1{
-	font-size: 50px;
+	font-size: 45px;
 	text-align: center;
 	font-family: 'Lobster', cursive;
 	border-radius: 10px;
@@ -50,7 +51,6 @@ i{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-header{
-	border-radius: 10px 10px 0 0 !important;
 }
 .card-body{
 	text-align: left;
