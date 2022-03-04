@@ -2,18 +2,14 @@ html,body{
     color: #EEE5E9;
     font-family: 'Roboto', sans-serif;
     background-color: #080705;
-    background: radial-gradient(62.27% 100% at 50% 0%, #00FF94 0%, 
-    	rgba(0, 255, 148, 0.25) 100%), 
-    	linear-gradient(219.46deg, #000000 27.63%, #170059 100%), 
-    	linear-gradient(202.92deg, #FFEBB9 9.44%, #19004E 80.6%), 
-    	radial-gradient(100% 246.94% at 100% 100%, #FFFFFF 0%, #000353 100%), 
-    	linear-gradient(121.18deg, #1400FF 0.45%, #3A0000 100%), 
-    	linear-gradient(180deg, #FF7A00 0%, #3C6A00 100%), 
-    	linear-gradient(150.76deg, #0012B6 15.35%, #000B72 89.57%);
+    background:linear-gradient(140.54deg, #608D00 0%, #D30000 72.37%), 
+    	linear-gradient(360deg, #0029FF 0%, #8FFF00 100%), 
+    	radial-gradient(100% 164.72% at 100% 100%, #6100FF 0%, #00FF57 100%), 
+    	radial-gradient(100% 148.07% at 0% 0%, #FFF500 0%, #51D500 100%);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
-	background-blend-mode: soft-light, screen, overlay, overlay, difference, difference, normal;
+    background-blend-mode: color-dodge, overlay, difference, normal;
 }
 section{
 	widows: 100wv;
